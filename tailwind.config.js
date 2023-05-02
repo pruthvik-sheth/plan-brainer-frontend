@@ -16,7 +16,7 @@ export default {
     extend: {
       minHeight: {
         "custom": "50vh",
-        "custom_1": "120vh",
+        "custom_1": "150vh",
       }
     },
   },
