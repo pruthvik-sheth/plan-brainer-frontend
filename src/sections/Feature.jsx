@@ -1,8 +1,6 @@
-import React from 'react'
-
 const Feature = () => {
   return (
-      <section id='Features' className='container border border-gray-500 border-t-0 flex items-center justify-center'>
+      <section id='Features' className='border border-gray-500 border-t-0 flex items-center justify-center'>
           <div className="min-h-screen w-10/12 flex flex-col items-center justify-center">
               <div className="max-w-screen-md mb-8 lg:mb-16 text-center">
                   <h2 className="text-5xl font-black">Features of the AI generator</h2>

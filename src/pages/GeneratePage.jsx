@@ -38,9 +38,9 @@ const GeneratePage = () => {
         setOutputImageURL(url)
     }
   return (
-      <div className="container border border-gray-500 border-t-0 flex items-center justify-center">
+      <div className="border border-gray-500 border-t-0 flex items-center justify-center">
           <div className='min-h-custom_1 flex flex-col items-center justify-center'>
-              <h1 className="w-full text-center text-5xl font-black my-10">Witness Magic in Action!</h1>
+              <h1 className="w-full text-center text-5xl font-black my-10">Generate Floor Plans!</h1>
               <div className="flex">
                   <div className="flex flex-col">
                       <div className="flex">

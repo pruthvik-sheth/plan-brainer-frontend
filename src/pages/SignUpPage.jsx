@@ -2,7 +2,7 @@ import React from 'react'
 
 const SignUpPage = () => {
   return (
-      <div className='container border border-gray-500 border-t-0 flex items-center justify-center'>
+      <div className='border border-gray-500 border-t-0 flex items-center justify-center'>
           <div className='min-h-screen flex flex-col w-full items-center justify-center'>
 
             <form>

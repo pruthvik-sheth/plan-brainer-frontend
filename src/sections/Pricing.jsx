@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-      <div id='Pricing' className='container border border-gray-500 border-t-0 flex items-center justify-center py-20'>
+      <div id='Pricing' className='border border-gray-500 border-t-0 flex items-center justify-center py-20'>
 
           <div className='min-h-screen w-10/12 flex flex-col items-center justify-center'>
               <h1 className='text-5xl font-black'>Pay only for what you use.</h1>

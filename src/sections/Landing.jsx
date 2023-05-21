@@ -51,7 +51,7 @@ const Landing = () => {
                     </div>
                 </div>
             </div> */}
-            <div className='container border border-gray-500 border-t-0 flex items-center justify-center'>
+            <div className='border border-gray-500 border-t-0 flex items-center justify-center'>
 
                 <div className='min-h-screen flex w-full flex-row-reverse'>
                     <div className='flex items-center justify-center w-1/2'>
@@ -72,7 +72,7 @@ const Landing = () => {
                 </div>
             </div>
 
-            <div className='container border border-gray-500 border-t-0 flex items-center justify-center'>
+            <div className='border border-gray-500 border-t-0 flex items-center justify-center'>
 
                 <div className='min-h-screen flex w-full'>
                     <div className='flex items-center justify-center w-1/2'>
