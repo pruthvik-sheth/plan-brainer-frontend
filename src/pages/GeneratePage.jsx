@@ -89,10 +89,16 @@ const GeneratePage = () => {
                   </div>
                   <div className="border border-gray-500 border-l-0">
                       <div className="px-10 h-full flex flex-col items-center justify-around">
-                          <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
-                          <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
-                          <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
-                          <h2 className="text-center text-xl font-extrabold">Variants</h2>
+                          {
+                              outputImageURL && (
+                                  <>
+                                      <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
+                                      <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
+                                      <img className="w-40" src={outputImageURL} alt='Model Generated Image' />
+                                      <h2 className="text-center text-xl font-extrabold">Variants</h2>
+                                </>
+                              )
+                          } 
                       </div>
                   </div>
               </div>
