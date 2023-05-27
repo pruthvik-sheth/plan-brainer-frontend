@@ -99,8 +99,6 @@ const GeneratePage = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );
